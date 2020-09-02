@@ -1,0 +1,47 @@
+link to finnished codepen: https://codepen.io/TGIFernando/pen/ZEWJdwJ
+
+1. What is Semantic HTML? HTML mark ups that give it meaning
+    2. What is HTML used for? it is used as the building blocks of a website.
+    3. What is an attribute and where do we put it? helps define any extra charactaristics of an element. right after an element
+    4. What is the h1 tag used for? How many times should I use it on a page?Main title and once
+    5. Name two tags that have required attributes. img, href
+    6. What do we put in the head of our HTML document? titles navigation logo
+    7. What is an id? helps you identify specific things in your code that you want to refer back to
+    8. What elements can I add an id to? all of them i think
+    9. How many times can I use the same id on a page? once
+    10. What is a class? helps you identify code you might want to alter in CSS
+    11. What elements can I add a class to? all of them?
+    12. How many times can I use the same class on a page? as many as your heart desires
+    13. How do I get my link to open in a new tab? target="_blank"
+    14. What is the alt attribute in the image tag used for? for screen readers
+    15. How do I reference an id?#
+    16. What is the difference between a section and a div. section means all the code inside is grouped where a div can be anything
+    17. What is CSS used for? styling web pages
+    18. How to we select an element? Example - every h2 on the page h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one class if you want to style something in css and dive to make compartments.
+    20. How do we select classes in CSS? .classname
+    21. How do we select a p element with a single class of “human””? .human p{}
+    22. What is a parent child selector? When would this be useful? .human p{} if you want specitivity
+    23. How do you select all links within a div with the class of sidebar?.sidebar a:link{}
+    24. What is a pseudo selector? selects things that are in a specific state
+    25. What do we use the change the spacing between lines?line-height: 20px;
+    26. What do we use to change the spacing between letters?letter-spacing: 20px;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?border: 10px dotted red;
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? <!-- (comment out)-->
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? -rm you could remove everything
+    34. Why should I use version control? its indistry standard and you can edit/view old code
+    35. How often should I commit to github? as often as possible. every major addition
+    36. What is the command we would use to push our repo up to github? git push -u origin branch name
+    37. Walk me through Lambda's git flow. fork, copy link, add TL, clone where you want it, cd into repo, create new branch, work, add, commit, push,pull request
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? inline elements may contain only data whereas block elements can contain multiple different data types.
+    2. What happens when an element is positioned absolutely? all other elements will treat it as if it were not there.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
